@@ -21,7 +21,11 @@ public class RestarButton : MonoBehaviour
         var scene = SceneManager.GetActiveScene();
         _fader.GotoScene(scene.buildIndex + 1); // ok as last is ending and no ui
     }
-    
+    public void GoMenu()
+    {
+        
+        _fader.GotoScene(0); // ok as last is ending and no ui
+    }
     public void GoPrev()
     {
         var scene = SceneManager.GetActiveScene();

@@ -3,9 +3,9 @@ using UnityEngine.SceneManagement;
 
 public class FaderManager : MonoBehaviour
 {
-    private CanvasGroup _canvas;
-    private FadeState _state;
-    private int _target;
+    public CanvasGroup _canvas;
+    public FadeState _state;
+    public int _target;
 
     private void Start()
     {
@@ -51,7 +51,7 @@ public class FaderManager : MonoBehaviour
         _state = FadeState.FadeToWhite;
     }
 
-    private enum FadeState
+    public enum FadeState
     {
         White,
         FadeToTrans,
