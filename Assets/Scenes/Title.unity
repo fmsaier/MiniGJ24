@@ -312,7 +312,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.6777778}
   m_AnchorMax: {x: 0.5, y: 0.6777778}
-  m_AnchoredPosition: {x: 15.1258, y: 19.249817}
+  m_AnchoredPosition: {x: 2.5, y: 19.249817}
   m_SizeDelta: {x: 391.7364, y: 185.6717}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &418952703
@@ -335,10 +335,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: <color=#77C2D1>Click To Start</size></color>
+  m_text: "<color=#77C2D1>\u5F00\u59CB\u6E38\u620F</size></color>"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 0a5b4a2ccf3974417a35f0d0f5ed63c6, type: 2}
-  m_sharedMaterial: {fileID: -8292762862139987503, guid: 0a5b4a2ccf3974417a35f0d0f5ed63c6, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2f1c6bd65d2b0f64f889e65e8f8e7288, type: 2}
+  m_sharedMaterial: {fileID: 3585878856584688083, guid: 2f1c6bd65d2b0f64f889e65e8f8e7288, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -362,8 +362,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 75
+  m_fontSizeBase: 75
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1108,7 +1108,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5075, y: 0.19533335}
   m_AnchorMax: {x: 0.5075, y: 0.19533335}
-  m_AnchoredPosition: {x: -2.7277, y: -12.275009}
+  m_AnchoredPosition: {x: -2.7277002, y: -12.275024}
   m_SizeDelta: {x: 326.2574, y: 151.25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1747792056
@@ -1188,10 +1188,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: <color=#ffff00>Exit Game</size></color>
+  m_text: "<color=#ffff00>\u9000\u51FA\u6E38\u620F</size></color>"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 0a5b4a2ccf3974417a35f0d0f5ed63c6, type: 2}
-  m_sharedMaterial: {fileID: -8292762862139987503, guid: 0a5b4a2ccf3974417a35f0d0f5ed63c6, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2f1c6bd65d2b0f64f889e65e8f8e7288, type: 2}
+  m_sharedMaterial: {fileID: 3585878856584688083, guid: 2f1c6bd65d2b0f64f889e65e8f8e7288, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1215,8 +1215,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 75
+  m_fontSizeBase: 75
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1383,7 +1383,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 19c283ac98f014cf98895ae6b3fca0f1, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.6
   m_Pitch: 1
   Loop: 1
   Mute: 0

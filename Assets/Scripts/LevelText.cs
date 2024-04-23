@@ -8,7 +8,7 @@ public class LevelText : MonoBehaviour
     private void Awake()
     {
         var scene = SceneManager.GetActiveScene().buildIndex;
-        var text = $"level {scene}";
+        var text = $"¹Ø¿¨ {scene}";
         var tmp = GetComponent<TextMeshProUGUI>();
         tmp.text = text;
     }
