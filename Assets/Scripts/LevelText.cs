@@ -1,15 +1,16 @@
-using TMPro;
+//using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
-[RequireComponent(typeof(TextMeshProUGUI))]
+//[RequireComponent(typeof(TextMeshProUGUI))]
 public class LevelText : MonoBehaviour
 {
     private void Awake()
     {
-        var scene = SceneManager.GetActiveScene().buildIndex;
-        var text = $"πÿø® {scene}";
-        var tmp = GetComponent<TextMeshProUGUI>();
+        var scene = SceneManager.GetActiveScene().buildIndex - 1;
+        var text = $"ÂÖ≥Âç° {scene}";
+        var tmp = GetComponent<Text>();
         tmp.text = text;
     }
 }

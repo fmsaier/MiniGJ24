@@ -343,7 +343,7 @@ PrefabInstance:
     - target: {fileID: 3596343676252412883, guid: b310c50009fe64bd6a10f8f639339bf7, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 102946a3ad38e7d42b61d168af4e2840, type: 3}
+      objectReference: {fileID: 21300000, guid: e2991f74b3ca3e7499bdaa7b20d53f78, type: 3}
     - target: {fileID: 3885112783380461031, guid: b310c50009fe64bd6a10f8f639339bf7, type: 3}
       propertyPath: m_Name
       value: wall_3 (4)
@@ -868,7 +868,7 @@ PrefabInstance:
     - target: {fileID: 3596343676252412883, guid: b310c50009fe64bd6a10f8f639339bf7, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 9cdb4751c465eaa418eadc5e4f9b8a4d, type: 3}
+      objectReference: {fileID: 21300000, guid: e2991f74b3ca3e7499bdaa7b20d53f78, type: 3}
     - target: {fileID: 3885112783380461031, guid: b310c50009fe64bd6a10f8f639339bf7, type: 3}
       propertyPath: m_Name
       value: wall_3 (3)
@@ -1189,7 +1189,7 @@ PrefabInstance:
     - target: {fileID: 4325492507108711503, guid: 843270215e73b4c999f664e6b4debd70, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 6023d1f4eb267724d8552138ce351d2a, type: 3}
+      objectReference: {fileID: 21300000, guid: aaae125d337511d4d9f7b259adb74aa6, type: 3}
     - target: {fileID: 5161749268918385679, guid: 843270215e73b4c999f664e6b4debd70, type: 3}
       propertyPath: m_Name
       value: wall_1 (5)
@@ -2289,7 +2289,7 @@ PrefabInstance:
     - target: {fileID: 4325492507108711503, guid: 843270215e73b4c999f664e6b4debd70, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 6023d1f4eb267724d8552138ce351d2a, type: 3}
+      objectReference: {fileID: 21300000, guid: aaae125d337511d4d9f7b259adb74aa6, type: 3}
     - target: {fileID: 5161749268918385679, guid: 843270215e73b4c999f664e6b4debd70, type: 3}
       propertyPath: m_Name
       value: wall_1 (6)
@@ -2494,7 +2494,7 @@ PrefabInstance:
     - target: {fileID: 7541487555503941826, guid: a1096e82521d74c43bfeb9bec34f4cf9, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: cfc114b568bfb7f49b9a846eb8c70cd4, type: 3}
+      objectReference: {fileID: 21300000, guid: ccf5b73460a48e844970ef9291e34fc1, type: 3}
     - target: {fileID: 8234929056272499525, guid: a1096e82521d74c43bfeb9bec34f4cf9, type: 3}
       propertyPath: m_Name
       value: wall_2 (4)

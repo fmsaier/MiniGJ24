@@ -140,7 +140,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &79665137
 RectTransform:
   m_ObjectHideFlags: 0
@@ -498,7 +498,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &447230345
 RectTransform:
   m_ObjectHideFlags: 0
@@ -574,7 +574,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &545170519
 RectTransform:
   m_ObjectHideFlags: 0
@@ -716,7 +716,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &752694246
 RectTransform:
   m_ObjectHideFlags: 0
@@ -792,7 +792,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &869848973
 RectTransform:
   m_ObjectHideFlags: 0
@@ -868,7 +868,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1357338787
 RectTransform:
   m_ObjectHideFlags: 0
@@ -939,6 +939,7 @@ GameObject:
   - component: {fileID: 1572481388}
   - component: {fileID: 1572481387}
   - component: {fileID: 1572481386}
+  - component: {fileID: 1572481391}
   m_Layer: 5
   m_Name: UI
   m_TagString: Untagged
@@ -1038,6 +1039,14 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!222 &1572481391
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1572481385}
+  m_CullTransparentMesh: 1
 --- !u!1 &1592892318
 GameObject:
   m_ObjectHideFlags: 0
@@ -1352,7 +1361,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2830557609402150997, guid: d29fc1acf665d4e32b0ea350ac9da04b, type: 3}
       propertyPath: orthographic size
-      value: 9
+      value: 15.367349
       objectReference: {fileID: 0}
     - target: {fileID: 2830557609402150998, guid: d29fc1acf665d4e32b0ea350ac9da04b, type: 3}
       propertyPath: m_Name
@@ -1402,6 +1411,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2830557610389789054, guid: d29fc1acf665d4e32b0ea350ac9da04b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7cc38c8aad3557942a6c480b08af0217, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d29fc1acf665d4e32b0ea350ac9da04b, type: 3}
 --- !u!114 &6132175166337537657
